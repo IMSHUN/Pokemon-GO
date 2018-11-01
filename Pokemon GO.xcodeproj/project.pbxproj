@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		29B8148A218B365600F958BF /* app icon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app icon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B8148A218B365600F958BF /* Pokemon GO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon GO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B8148D218B365600F958BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29B8148F218B365600F958BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		29B81492218B365600F958BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29B81494218B365800F958BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29B81497218B365800F958BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29B81499218B365800F958BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29B8149E218B365800F958BF /* app iconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "app iconTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B8149E218B365800F958BF /* Pokemon GOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pokemon GOTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B814A2218B365800F958BF /* app_iconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_iconTests.swift; sourceTree = "<group>"; };
 		29B814A4218B365800F958BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29B814A9218B365800F958BF /* app iconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "app iconUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B814A9218B365800F958BF /* Pokemon GOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pokemon GOUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B814AD218B365800F958BF /* app_iconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_iconUITests.swift; sourceTree = "<group>"; };
 		29B814AF218B365800F958BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		29B8148B218B365600F958BF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				29B8148A218B365600F958BF /* app icon.app */,
-				29B8149E218B365800F958BF /* app iconTests.xctest */,
-				29B814A9218B365800F958BF /* app iconUITests.xctest */,
+				29B8148A218B365600F958BF /* Pokemon GO.app */,
+				29B8149E218B365800F958BF /* Pokemon GOTests.xctest */,
+				29B814A9218B365800F958BF /* Pokemon GOUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		29B81489218B365600F958BF /* app icon */ = {
+		29B81489218B365600F958BF /* Pokemon GO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29B814B2218B365800F958BF /* Build configuration list for PBXNativeTarget "app icon" */;
+			buildConfigurationList = 29B814B2218B365800F958BF /* Build configuration list for PBXNativeTarget "Pokemon GO" */;
 			buildPhases = (
 				29B81486218B365600F958BF /* Sources */,
 				29B81487218B365600F958BF /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = "app icon";
+			name = "Pokemon GO";
 			productName = "app icon";
-			productReference = 29B8148A218B365600F958BF /* app icon.app */;
+			productReference = 29B8148A218B365600F958BF /* Pokemon GO.app */;
 			productType = "com.apple.product-type.application";
 		};
-		29B8149D218B365800F958BF /* app iconTests */ = {
+		29B8149D218B365800F958BF /* Pokemon GOTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29B814B5218B365800F958BF /* Build configuration list for PBXNativeTarget "app iconTests" */;
+			buildConfigurationList = 29B814B5218B365800F958BF /* Build configuration list for PBXNativeTarget "Pokemon GOTests" */;
 			buildPhases = (
 				29B8149A218B365800F958BF /* Sources */,
 				29B8149B218B365800F958BF /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				29B814A0218B365800F958BF /* PBXTargetDependency */,
 			);
-			name = "app iconTests";
+			name = "Pokemon GOTests";
 			productName = "app iconTests";
-			productReference = 29B8149E218B365800F958BF /* app iconTests.xctest */;
+			productReference = 29B8149E218B365800F958BF /* Pokemon GOTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		29B814A8218B365800F958BF /* app iconUITests */ = {
+		29B814A8218B365800F958BF /* Pokemon GOUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29B814B8218B365800F958BF /* Build configuration list for PBXNativeTarget "app iconUITests" */;
+			buildConfigurationList = 29B814B8218B365800F958BF /* Build configuration list for PBXNativeTarget "Pokemon GOUITests" */;
 			buildPhases = (
 				29B814A5218B365800F958BF /* Sources */,
 				29B814A6218B365800F958BF /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				29B814AB218B365800F958BF /* PBXTargetDependency */,
 			);
-			name = "app iconUITests";
+			name = "Pokemon GOUITests";
 			productName = "app iconUITests";
-			productReference = 29B814A9218B365800F958BF /* app iconUITests.xctest */;
+			productReference = 29B814A9218B365800F958BF /* Pokemon GOUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 29B81485218B365600F958BF /* Build configuration list for PBXProject "app icon" */;
+			buildConfigurationList = 29B81485218B365600F958BF /* Build configuration list for PBXProject "Pokemon GO" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				29B81489218B365600F958BF /* app icon */,
-				29B8149D218B365800F958BF /* app iconTests */,
-				29B814A8218B365800F958BF /* app iconUITests */,
+				29B81489218B365600F958BF /* Pokemon GO */,
+				29B8149D218B365800F958BF /* Pokemon GOTests */,
+				29B814A8218B365800F958BF /* Pokemon GOUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		29B814A0218B365800F958BF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 29B81489218B365600F958BF /* app icon */;
+			target = 29B81489218B365600F958BF /* Pokemon GO */;
 			targetProxy = 29B8149F218B365800F958BF /* PBXContainerItemProxy */;
 		};
 		29B814AB218B365800F958BF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 29B81489218B365600F958BF /* app icon */;
+			target = 29B81489218B365600F958BF /* Pokemon GO */;
 			targetProxy = 29B814AA218B365800F958BF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -478,7 +478,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/app icon.app/app icon";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pokemon GO.app/Pokemon GO";
 			};
 			name = Debug;
 		};
@@ -498,7 +498,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/app icon.app/app icon";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pokemon GO.app/Pokemon GO";
 			};
 			name = Release;
 		};
@@ -543,7 +543,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29B81485218B365600F958BF /* Build configuration list for PBXProject "app icon" */ = {
+		29B81485218B365600F958BF /* Build configuration list for PBXProject "Pokemon GO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29B814B0218B365800F958BF /* Debug */,
@@ -552,7 +552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		29B814B2218B365800F958BF /* Build configuration list for PBXNativeTarget "app icon" */ = {
+		29B814B2218B365800F958BF /* Build configuration list for PBXNativeTarget "Pokemon GO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29B814B3218B365800F958BF /* Debug */,
@@ -561,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		29B814B5218B365800F958BF /* Build configuration list for PBXNativeTarget "app iconTests" */ = {
+		29B814B5218B365800F958BF /* Build configuration list for PBXNativeTarget "Pokemon GOTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29B814B6218B365800F958BF /* Debug */,
@@ -570,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		29B814B8218B365800F958BF /* Build configuration list for PBXNativeTarget "app iconUITests" */ = {
+		29B814B8218B365800F958BF /* Build configuration list for PBXNativeTarget "Pokemon GOUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29B814B9218B365800F958BF /* Debug */,
